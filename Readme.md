@@ -18,8 +18,12 @@ or if you want Webpack to listen for any changes...
 webpack -w
 ```
 
-Then in another command-line window, do this to launch a quick web server:
+To pull up page on a server...
 
 ```sh
-http-server
+npm install webpack-dev-server
+```
+and then to start the server run ( from project root directory )
+```sh
+node_modules/.bin/webpack-dev-server
 ```
